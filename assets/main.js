@@ -38,7 +38,7 @@ for (let i = 0; i < team.length; i++) {
   let element = team[i];
 
   document.getElementById('cardSection').innerHTML += `
-  <div class= "col-4 p-3 d-flex justify-content-center">
+  <div class= "col-4 p-2 d-flex justify-content-center">
     <div class="card" style="width: 18rem;">
     <img src="assets/img/${element.image}" class="card-img-top" alt="...">
      <div class="card-body">
